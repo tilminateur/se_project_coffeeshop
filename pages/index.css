@@ -138,7 +138,7 @@
   margin: 0%;
   font-family: "noto serif", Times New Roman, serif;
   font-size: 20px;
-line-height: 30px;
+  line-height: 30px;
 }
 
 .recipes__videos {
@@ -165,3 +165,108 @@ line-height: 30px;
 .recipes__iframe-wrap {
   margin: 0;
 }
+
+.reservation {
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation__form {
+  margin: auto;
+  max-width: 385px;
+}
+
+.reservation__title {
+  margin-bottom: 80px;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Inter", arial, sans-serif;
+
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__label {
+  margin-bottom: 32px;
+
+}
+
+.label__name {
+  margin: 0 0 8px 0;
+  font-family: "Inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  border: 1px solid #838383;
+  border-radius: 4px;
+  min-width: 385px;
+  margin-bottom: 32px;
+  min-height: 60px;
+  max-height: 60px;
+  padding: 10px;
+}
+
+.form__button {
+  height: 60px;
+  min-width: 385px;
+  border-radius: 4px;
+  transition: opacity ease 0.3s;
+  background-color: #2f80ed;
+  font-family: "Inter", arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 32px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #838383;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox-wrap {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.form__input::-webkit-input-placeholder {
+font-family: "Inter", arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+
+
+note: i need to change the programme label using for and id elements
+the padding is not working with the .form__input
+i put placeholder

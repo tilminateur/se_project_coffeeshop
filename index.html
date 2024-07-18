@@ -31,7 +31,9 @@
           />
           <ul class="nav__links">
             <li><a class="nav__link" href="#recipes-id">Recipes</a></li>
-            <li><a class="nav__link" href="#reservation-id">Book a table</a></li>
+            <li>
+              <a class="nav__link" href="#reservation-id">Book a table</a>
+            </li>
             <li><a class="nav__link" href="#menu-id">Menu</a></li>
             <li><a class="nav__link" href="#about-id">Contacts</a></li>
           </ul>
@@ -92,7 +94,60 @@
             </figure>
           </div>
         </section>
-        <section class="reservation" id="reservation-id"></section>
+        <section class="reservation" id="reservation-id">
+          <form class="reservation__form">
+            <h2 class="reservation__title">Book a table</h2>
+            <fieldset class="form__fieldset">
+              <label class="form__label"
+                ><p class="label__name">Name</p>
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Name Surename"
+                  required
+                />
+              </label>
+              <label class="form__label"
+                ><p class="label__name">Number of guests</p>
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  required
+                />
+              </label>
+              <label class="form__label"
+                ><p class="label__name">Date & time</p>
+                <input type="datetime-local" class="form__input" placeholder="datetime-local" required />
+              </label>
+              <label class="form__label"
+                ><p class="label__name">Your email</p>
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset"><button type="submit" class="form__button" required>
+              Book a Table
+            </button></fieldset>
+
+              <fieldset class="form__fieldset">
+                <label class="form__checkbox-wrap">
+                  <input
+                    type="checkbox"
+                    class="form__checkbox"
+                    required
+                  /><p class="label__name">I agree with the terms of use</p>
+                </label>
+              </fieldset>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu-id"></section>
         <section class="about" id="about-id"></section>
       </main>
