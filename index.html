@@ -99,7 +99,7 @@
             <h2 class="reservation__title">Book a table</h2>
             <fieldset class="form__fieldset">
               <label class="form__label"
-                ><p class="label__name">Name</p>
+                ><span class="label__name">Name</span>
                 <input
                   type="text"
                   class="form__input"
@@ -108,7 +108,7 @@
                 />
               </label>
               <label class="form__label"
-                ><p class="label__name">Number of guests</p>
+                ><span class="label__name">Number of guests</span>
                 <input
                   type="number"
                   class="form__input"
@@ -119,11 +119,11 @@
                 />
               </label>
               <label class="form__label"
-                ><p class="label__name">Date & time</p>
-                <input type="datetime-local" class="form__input" placeholder="datetime-local" required />
+                ><span class="label__name">Date & time</span>
+                <input type="datetime-local" class="form__input" required />
               </label>
               <label class="form__label"
-                ><p class="label__name">Your email</p>
+                ><span class="label__name">Your email</span>
                 <input
                   type="email"
                   class="form__input"
@@ -131,21 +131,12 @@
                   required
                 />
               </label>
+              <button type="submit" class="form__button">Book a Table</button>
             </fieldset>
-            <fieldset class="form__fieldset"><button type="submit" class="form__button" required>
-              Book a Table
-            </button></fieldset>
-
-              <fieldset class="form__fieldset">
-                <label class="form__checkbox-wrap">
-                  <input
-                    type="checkbox"
-                    class="form__checkbox"
-                    required
-                  /><p class="label__name">I agree with the terms of use</p>
-                </label>
-              </fieldset>
-            </fieldset>
+            <label class="form__checkbox-wrap">
+              <input type="checkbox" class="form__checkbox" required />
+              <span class="label__name">I agree with the terms of use</span>
+            </label>
           </form>
         </section>
         <section class="menu" id="menu-id"></section>
