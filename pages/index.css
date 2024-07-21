@@ -62,7 +62,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "noto serif", 'Times New Roman', serif;
+  font-family: "noto serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -81,7 +81,7 @@
   max-width: 683px;
   margin-left: 80px;
   margin-top: 28px;
-  font-family: "noto serif", 'Times New Roman', serif;
+  font-family: "noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
@@ -136,7 +136,7 @@
   left: 80px;
   padding-top: 24px;
   margin: 0%;
-  font-family: "noto serif", 'Times New Roman', serif;
+  font-family: "noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -174,13 +174,13 @@
   background-position: center;
   padding-top: 100px;
   padding-bottom: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .reservation__form {
   margin: auto;
+}
+
+.form {
   max-width: 385px;
 }
 
@@ -205,7 +205,7 @@
   margin-bottom: 32px;
 }
 
-.label__name {
+.form__label-name{
   display: block;
   margin: 0 0 8px 0;
   font-family: "Inter", arial, sans-serif;
@@ -259,10 +259,10 @@
 }
 
 .form__input::-webkit-input-placeholder
-.form__input::-moz-input-placeholder
-.form__input::-ms-input-placeholder
-.form__input::-o-input-placeholder
-.form__input::placeholder{
+  .form__input::-moz-input-placeholder
+  .form__input::-ms-input-placeholder
+  .form__input::-o-input-placeholder
+  .form__input::placeholder {
   font-family: "Inter", arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
