@@ -1,0 +1,72 @@
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title {
+  max-width: 729px;
+  margin: 183px 0 0 80px;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "noto serif", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
+}
+
+.header__description {
+  max-width: 683px;
+  margin-left: 80px;
+  margin-top: 28px;
+  font-family: "noto serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.header__footer {
+  margin-top: auto;
+  padding: 0 80px 40px;
+}
+
+.header__paragraph {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: 500;
+  color: #838383;
+}
+
+.header__paragraph_hours {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.header__paragraph_location {
+  align-self: flex-end;
+}
