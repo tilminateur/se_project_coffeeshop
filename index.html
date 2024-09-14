@@ -9,8 +9,8 @@
       name="keywords"
       content="coffee Shop, free wifi, breakfast, meetings, professional , ideas"
     />
-    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -135,14 +135,147 @@
             </fieldset>
             <label class="form__checkbox-wrap">
               <input type="checkbox" class="form__checkbox" required />
-              <span class="form__label-name">I agree with the terms of use</span>
+              <span class="form__label-name"
+                >I agree with the terms of use</span
+              >
             </label>
           </form>
         </section>
-        <section class="menu" id="menu-id"></section>
-        <section class="about" id="about-id"></section>
+        <section class="menu" id="menu-id">
+          <h2 class="menu__title">Menu</h2>
+          <h3 class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </h3>
+          <div class="menu__cards">
+            <nav class="card">
+              <h4 class="card__title">Filter</h4>
+              <ul class="card__title-items">
+                <li class="card__title-item">
+                  Regular (12 oz)<span class="card__list-divider"></span>$1
+                </li>
+                <li class="card__title-item">
+                  Large (16 oz)<span class="card__list-divider"></span>$1.25
+                </li>
+                <li class="card__title-item">
+                  XL (20 oz)<span class="card__list-divider"></span>$1.5
+                </li>
+                <li class="card__title-item">
+                  Party-size (24 oz, decaf)<span
+                    class="card__list-divider"
+                  ></span
+                  >$1.75
+                </li>
+                <li class="card__title-item">
+                  Iced Coffee (16 oz)<span class="card__list-divider"></span
+                  >$1.25
+                </li>
+              </ul>
+            </nav>
+            <nav class="card">
+              <h4 class="card__title">Espresso</h4>
+              <ul class="card__title-items">
+              <li class="card__title-item">
+                Machiato<span class="card__list-divider"></span>$2.25
+              </li>
+              <li class="card__title-item">
+                Cortado<span class="card__list-divider"></span>$2.5
+              </li>
+              <li class="card__title-item">
+                Mocha<span class="card__list-divider"></span>$3
+              </li>
+              <li class="card__title-item">
+                Sunrise in the Bay Area (decaf)<span
+                  class="card__list-divider"
+                ></span
+                >$10
+              </li>
+              </ul>
+            </nav>
+            <nav class="card">
+              <h4 class="card__title">Baked Goods</h4>
+              <ul class="card__title-items">
+              <li class="card__title-item">
+                Almond Croissant<span class="card__list-divider"></span>$2
+              </li>
+              <li class="card__title-item">
+                Banana Bread<span class="card__list-divider"></span>$1.75
+              </li>
+              <li class="card__title-item">
+                Key Lime Pie<span class="card__list-divider"></span>$3
+              </li>
+              <li class="card__title-item">
+                Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+              </li>
+              <li class="card__title-item">
+                Web Cookie<span class="card__list-divider"></span>$2
+              </li>
+              <li class="card__title-item">
+                Fresh Bug’uette<span class="card__list-divider"></span>$0.25
+              </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+        <section class="about" id="about-id">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <section class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Expresso logo"
+            class="footer__logo"
+          />
+          <nav class="footer__column">
+            <h3 class="footer__social-heading">Social Media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a
+                  class="footer__social-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  ><img
+                    class="footer__social-icon"
+                    alt="facebook logo"
+                    src="./images/facebook_white.svg"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a
+                  class="footer__social-link"
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  ><img
+                    class="footer__social-icon"
+                    alt="Instagram logo"
+                    src="./images/instagram_white.svg"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <p class="footer__copyright">@ 2024 Sakkouri Ayoub</p>
+      </footer>
     </div>
   </body>
 </html>

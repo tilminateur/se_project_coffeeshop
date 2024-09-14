@@ -12,5 +12,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - CSS animation and transform
 
 ## Plan on improving the project
+-make the top bare moving while scrolling down
+-make the logo clickable leading to home page 
 
-Add your ideas here :)
