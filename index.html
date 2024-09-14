@@ -9,7 +9,6 @@
       name="keywords"
       content="coffee Shop, free wifi, breakfast, meetings, professional , ideas"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -52,16 +51,14 @@
           alt="Coffe shop"
         />
         <div class="header__footer">
-          <section class="header__paragraph">
-            <ul class="header__paragraph header__paragraph_hours">
-              <li>Hours:</li>
-              <li>Monday – Friday (10:00 – 19:00)</li>
-              <li>Saturday – Sunday (11:00 – 18:00)</li>
-            </ul>
-            <p class="header__paragraph header__paragraph_location">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </section>
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -99,7 +96,7 @@
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label class="form__label"
-                ><span class="form__label-name">Name</span>
+                >Name
                 <input
                   type="text"
                   class="form__input"
@@ -108,7 +105,7 @@
                 />
               </label>
               <label class="form__label"
-                ><span class="form__label-name">Number of guests</span>
+                >Number of guests
                 <input
                   type="number"
                   class="form__input"
@@ -119,11 +116,11 @@
                 />
               </label>
               <label class="form__label"
-                ><span class="form__label-name">Date & time</span>
+                >Date & time
                 <input type="datetime-local" class="form__input" required />
               </label>
               <label class="form__label"
-                ><span class="form__label-name">Your email</span>
+                >Your email
                 <input
                   type="email"
                   class="form__input"
@@ -143,78 +140,78 @@
         </section>
         <section class="menu" id="menu-id">
           <h2 class="menu__title">Menu</h2>
-          <h3 class="menu__subtitle">
+          <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
-          </h3>
+          </p>
           <div class="menu__cards">
-            <nav class="card">
-              <h4 class="card__title">Filter</h4>
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
               <ul class="card__title-items">
-                <li class="card__title-item">
+                <li class="card__list-item">
                   Regular (12 oz)<span class="card__list-divider"></span>$1
                 </li>
-                <li class="card__title-item">
+                <li class="card__list-item">
                   Large (16 oz)<span class="card__list-divider"></span>$1.25
                 </li>
-                <li class="card__title-item">
+                <li class="card__list-item">
                   XL (20 oz)<span class="card__list-divider"></span>$1.5
                 </li>
-                <li class="card__title-item">
+                <li class="card__list-item">
                   Party-size (24 oz, decaf)<span
                     class="card__list-divider"
                   ></span
                   >$1.75
                 </li>
-                <li class="card__title-item">
+                <li class="card__list-item">
                   Iced Coffee (16 oz)<span class="card__list-divider"></span
                   >$1.25
                 </li>
               </ul>
-            </nav>
-            <nav class="card">
-              <h4 class="card__title">Espresso</h4>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__title-items">
-              <li class="card__title-item">
-                Machiato<span class="card__list-divider"></span>$2.25
-              </li>
-              <li class="card__title-item">
-                Cortado<span class="card__list-divider"></span>$2.5
-              </li>
-              <li class="card__title-item">
-                Mocha<span class="card__list-divider"></span>$3
-              </li>
-              <li class="card__title-item">
-                Sunrise in the Bay Area (decaf)<span
-                  class="card__list-divider"
-                ></span
-                >$10
-              </li>
+                <li class="card__list-item">
+                  Machiato<span class="card__list-divider"></span>$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado<span class="card__list-divider"></span>$2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha<span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)<span
+                    class="card__list-divider"
+                  ></span
+                  >$10
+                </li>
               </ul>
-            </nav>
-            <nav class="card">
-              <h4 class="card__title">Baked Goods</h4>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__title-items">
-              <li class="card__title-item">
-                Almond Croissant<span class="card__list-divider"></span>$2
-              </li>
-              <li class="card__title-item">
-                Banana Bread<span class="card__list-divider"></span>$1.75
-              </li>
-              <li class="card__title-item">
-                Key Lime Pie<span class="card__list-divider"></span>$3
-              </li>
-              <li class="card__title-item">
-                Blue Velvet Cake<span class="card__list-divider"></span>$3.75
-              </li>
-              <li class="card__title-item">
-                Web Cookie<span class="card__list-divider"></span>$2
-              </li>
-              <li class="card__title-item">
-                Fresh Bug’uette<span class="card__list-divider"></span>$0.25
-              </li>
+                <li class="card__list-item">
+                  Almond Croissant<span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread<span class="card__list-divider"></span>$1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie<span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie<span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug’uette<span class="card__list-divider"></span>$0.25
+                </li>
               </ul>
-            </nav>
+            </div>
           </div>
         </section>
         <section class="about" id="about-id">
@@ -238,7 +235,7 @@
         </section>
       </main>
       <footer class="footer">
-        <section class="footer__content">
+        <div class="footer__content">
           <img
             src="./images/logo_coffeeshop_light.svg"
             alt="Triple Expresso logo"
@@ -273,7 +270,7 @@
               </li>
             </ul>
           </nav>
-        </section>
+        </div>
         <p class="footer__copyright">@ 2024 Sakkouri Ayoub</p>
       </footer>
     </div>

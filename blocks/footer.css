@@ -16,7 +16,6 @@
 .footer__column {
   margin: 0 0 0 auto;
   display: block;
-
 }
 
 .footer__list {
@@ -27,7 +26,7 @@
 }
 
 .footer__social-heading {
-color: white;
+  color: white;
   padding-bottom: 20px;
   margin: 0;
   font-family: "Inter";
@@ -36,8 +35,6 @@ color: white;
   font-size: 16px;
   line-height: 20px;
 }
-
-
 
 .footer__list-item {
   padding-bottom: 16px;

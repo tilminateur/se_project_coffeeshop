@@ -19,7 +19,7 @@
   margin: 0;
 }
 
-.card__title-item {
+.card__list-item {
   padding-bottom: 16px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -39,4 +39,3 @@
   flex-grow: 1;
   margin-bottom: 5px;
 }
-
