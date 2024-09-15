@@ -7,7 +7,7 @@
 
 .card__title {
   margin: 0 0 32px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -21,13 +21,17 @@
 
 .card__list-item {
   padding-bottom: 16px;
-  font-family: "Noto Serif";
+  font-family: "noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   gap: 4px;
+}
+
+.card__list-item:last-child {
+  padding-bottom: 0;
 }
 
 .card__title-item:last-child {
